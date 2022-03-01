@@ -1,0 +1,15 @@
+{
+  "name": "3d-transform-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node example/index.js"
+  },
+  "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan)",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.0.0"
+  }
+}
