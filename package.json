@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "node example/index.js"
   },
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan)",
