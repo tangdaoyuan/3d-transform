@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { transformMatrix4FromEuler, multiplyMatrix4, applyMatrix4 } from './matrix.js';
+import { transformMatrix4FromEuler, multiplyMatrix4, applyMatrix4 } from './matrix.mjs';
 /**
  * 辅助计算2d/3d统计数据
  */
