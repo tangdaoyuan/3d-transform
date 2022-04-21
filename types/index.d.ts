@@ -1,1 +1,3 @@
-/// <reference path="./3d-transform-utils/index.d.ts" />
+import Transform from './3d-transform-utils'
+
+export default Transform
