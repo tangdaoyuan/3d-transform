@@ -2,15 +2,19 @@
   "name": "3d-transform-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "./esm/index.js",
-  "type": "module",
+  "main": "./dist/index.cjs",
   "types": "./types/index.d.ts",
+  "module": "./dist/index.mjs",
+  "type": "module",
   "exports": {
-    "types": "./types/index.d.ts",
-    "import": "./esm/index.js"
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
   },
   "files": [
-    "esm",
+    "dist",
     "types"
   ],
   "scripts": {

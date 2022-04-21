@@ -41,7 +41,7 @@ declare module "3d-transform-utils" {
    * @param center 中心点
    * @param radius 半径序列
    */
-  export default function cubeInAreas(
+  export function cubeInAreas(
     cube: ICube,
     center?: ICenter,
     radius?: number[]

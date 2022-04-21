@@ -1,4 +1,4 @@
-import cubeInAreas from "3d-transform-utils";
+import { cubeInAreas } from "3d-transform-utils";
 import chalk from "chalk";
 
 const inArea = cubeInAreas({
