@@ -28,7 +28,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "8.3.3",
     "@suger-tdy/eslint-config": "1.1.7",
-    "@types/jest": "27.5.2",
+    "@types/jest": "28.1.6",
     "@types/node": "17.0.30",
     "chalk": "5.0.1",
     "eslint": "8.19.0",
